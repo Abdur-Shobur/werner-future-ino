@@ -12,3 +12,11 @@
 	background: url('../src/images/commercial-roof-hero.jpg') no-repeat center;
 	background-size: cover;
 }
+.background_images_metal_roof_hero {
+	background: url('../src/images/commercial-roofing-hero.jpg') no-repeat center;
+	background-size: cover;
+}
+.background_images_contact_us {
+	background: url('../src/images/contact-us-bg.jpg') no-repeat center;
+	background-size: cover;
+}
