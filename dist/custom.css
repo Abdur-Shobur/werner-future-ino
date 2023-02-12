@@ -1,0 +1,10 @@
+.background_images {
+	background: url('../src/images/flat-roof-hero-2.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.background_images_for_list_items {
+	background: url('../src/images/commercial-roofing-contractors-in-massachusetts.jpg')
+		no-repeat center;
+	background-size: cover;
+}
