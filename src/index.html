@@ -12,15 +12,15 @@
 	</head>
 	<body>
 		<!-- top bar  -->
-		<div
-			class="flex justify-between items-center container mx-auto max-w-[1200px] mt-5"
-		>
+		<div class="flex justify-between items-center container mx-auto mt-5">
 			<div class="">
-				<img
-					class="w-[400px]"
-					src="./images/werner-roofing-logo-1a.png"
-					alt=""
-				/>
+				<a href="./index.html">
+					<img
+						class="w-[400px]"
+						src="./images/werner-roofing-logo-1a.png"
+						alt=""
+					/>
+				</a>
 			</div>
 			<div class="flex items-center">
 				<div class="flex gap-1">
@@ -48,19 +48,19 @@
 
 		<!-- nav bar  -->
 		<div class="bg-blue_primary">
-			<div class="container mx-auto max-w-[1200px]">
+			<div class="container mx-auto">
 				<ul class="flex justify-center items-center">
 					<li>
 						<a
-							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							class="bg-blue_secondary text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							href="./index.html"
 							>HOME
 						</a>
 					</li>
 					<li>
 						<a
 							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							href="./commercial-roofing.html"
 						>
 							COMMERCIAL ROOFING
 						</a>
@@ -68,7 +68,7 @@
 					<li>
 						<a
 							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							href="./metal-roofing.html"
 						>
 							METAL ROOFING
 						</a>
@@ -76,7 +76,7 @@
 					<li>
 						<a
 							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							href="./roof-coatings.html"
 						>
 							ROOF COATINGS
 						</a>
@@ -84,7 +84,7 @@
 					<li>
 						<a
 							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							href="./tpo-roofing.html"
 						>
 							TPO ROOFING
 						</a>
@@ -92,7 +92,7 @@
 					<li>
 						<a
 							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							href="./roof-repair.html"
 						>
 							ROOF REPAIR
 						</a>
@@ -100,7 +100,7 @@
 					<li>
 						<a
 							class="text-base uppercase px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
-							href="#"
+							href="./contact.html"
 						>
 							CONTACT
 						</a>
@@ -134,59 +134,60 @@
 						>
 							Request Estimate
 						</h2>
-
-						<div class="relative mb-4">
-							<label for="name" class="leading-7 text-sm text-gray-600"
-								>Name</label
+						<form action="">
+							<div class="relative mb-4">
+								<label for="name" class="leading-7 text-sm text-gray-600"
+									>Name</label
+								>
+								<input
+									type="text"
+									id="name"
+									name="name"
+									placeholder="Name"
+									class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+								/>
+							</div>
+							<div class="relative mb-4">
+								<label for="phone" class="leading-7 text-sm text-gray-600"
+									>Phone</label
+								>
+								<input
+									type="text"
+									id="phone"
+									name="phone"
+									placeholder="Phone"
+									class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+								/>
+							</div>
+							<div class="relative mb-4">
+								<label for="email" class="leading-7 text-sm text-gray-600"
+									>Email</label
+								>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									placeholder="Email"
+									class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+								/>
+							</div>
+							<div class="relative mb-4">
+								<label for="message" class="leading-7 text-sm text-gray-600"
+									>Message</label
+								>
+								<textarea
+									id="message"
+									name="message"
+									placeholder="Message"
+									class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+								></textarea>
+							</div>
+							<button
+								class="text-white transition-all bg-blue_primary border-0 py-2 px-6 focus:outline-none hover:bg-blue_secondary rounded text-lg"
 							>
-							<input
-								type="text"
-								id="name"
-								name="name"
-								placeholder="Name"
-								class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-							/>
-						</div>
-						<div class="relative mb-4">
-							<label for="phone" class="leading-7 text-sm text-gray-600"
-								>Phone</label
-							>
-							<input
-								type="text"
-								id="phone"
-								name="phone"
-								placeholder="Phone"
-								class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-							/>
-						</div>
-						<div class="relative mb-4">
-							<label for="email" class="leading-7 text-sm text-gray-600"
-								>Email</label
-							>
-							<input
-								type="email"
-								id="email"
-								name="email"
-								placeholder="Email"
-								class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-							/>
-						</div>
-						<div class="relative mb-4">
-							<label for="message" class="leading-7 text-sm text-gray-600"
-								>Message</label
-							>
-							<textarea
-								id="message"
-								name="message"
-								placeholder="Message"
-								class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-							></textarea>
-						</div>
-						<button
-							class="text-white transition-all bg-blue_primary border-0 py-2 px-6 focus:outline-none hover:bg-blue_secondary rounded text-lg"
-						>
-							Submit
-						</button>
+								Submit
+							</button>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -270,18 +271,305 @@
 							/>
 						</div>
 					</div>
-					<!-- image - end -->
 				</section>
 			</div>
 		</div>
 
-		<div class="background_images_for_list_items">
-			<div class="bg-slate-600/[0.6] max-w-xl mx-auto p-12">
-				<h1 class="text-4xl">Commercial Flat Roof Experts</h1>
+		<!-- list styles  -->
+		<div class="background_images_for_list_items py-10">
+			<div class="bg-white/[0.7] max-w-2xl rounded-md shadow mx-auto p-12">
+				<h1 class="text-4xl text-blue_primary font-medium mb-4">
+					Commercial Flat Roof Experts
+				</h1>
 				<ul class="list-disc">
-					<li>Flat Roof Replacement & Repairs</li>
+					<li class="text-lg text-gray-800">
+						Flat Roof Replacement &amp; Repairs
+					</li>
+					<li class="text-lg text-gray-800">
+						Roof leak repair and investigation
+					</li>
+					<li class="text-lg text-gray-800">
+						TPO roofs, single-ply roofing systems, and TPO roof repair
+					</li>
+					<li class="text-lg text-gray-800">Thermal Roof Coatings</li>
+					<li class="text-lg text-gray-800">Metal Roof Coatings</li>
+					<li class="text-lg text-gray-800">Flat Roof Coatings</li>
+					<li class="text-lg text-gray-800">Residential Roofing</li>
+					<li class="text-lg text-gray-800">
+						PVC roofs, single-ply roofing systems, and PVC roof repair
+					</li>
+					<li class="text-lg text-gray-800">
+						Modified Bitumen roof repair or re-roofing
+					</li>
+					<li class="text-lg text-gray-800">
+						Rubber roof repair or replacement
+					</li>
+					<li class="text-lg text-gray-800">
+						R-panel metal warehouse roofing, repair, and replacement
+					</li>
+					<li class="text-lg text-gray-800">
+						Built-up Roofing Systems and Installation
+					</li>
+					<li class="text-lg text-gray-800">
+						Tar and gravel roofing, patchwork and roof repair
+					</li>
+					<li class="text-lg text-gray-800">Aluminum Flake Roof Coatings</li>
+					<li class="text-lg text-gray-800">
+						Thermal Reflective ( Heat Reflecting ) white Cool Roof coating
+					</li>
+					<li class="text-lg text-gray-800">
+						TPO Contractor roofing materials. Single ply membrane
+					</li>
+					<li class="text-lg text-gray-800">Urethane roof coatings</li>
+					<li class="text-lg text-gray-800">Tile Roofs</li>
+					<li class="text-lg text-gray-800">Shingle Roofs</li>
+					<li class="text-lg text-gray-800">
+						Ceramic - acrylic roof coating systems
+					</li>
+					<li class="text-lg text-gray-800">Foam roof repair or replacement</li>
+					<li class="text-lg text-gray-800">
+						Energy Star rated single ply Cool Roof certified Contractors
+					</li>
+					<li class="text-lg text-gray-800">Epoxy Floor Coatings</li>
+					<li class="text-lg text-gray-800">Polished Concrete Floors</li>
 				</ul>
 			</div>
+		</div>
+
+		<!-- info -->
+		<div>
+			<h1
+				class="text-blue_primary md:text-lg xl:text-3xl text-center font-semibold mt-10"
+			>
+				Commercial Roofers Serving the New England Region s
+			</h1>
+			<h1
+				class="text-blue_primary md:text-lg xl:text-3xl text-center font-semibold mb-4 mt-1"
+			>
+				Quality Roofing Materials & Superior Installation
+			</h1>
+			<p class="text-center mx-auto max-w-5xl text-gray-800 text-lg">
+				We are leaders in commercial and industrial roofing with years of
+				experience serving the New England Region. We serve the
+				<strong>entire state</strong> of Massachusetts, New Hampshire, Rhode
+				Island, Vermont &amp; Maine. <strong>Top Cities Served</strong>: Boston,
+				MA ● Worcester, MA ● Springfield, MA ● Manchester, NH ● Nashua, NH ●
+				Concord, NH ● Providence, RI ● Cranston, RI ● Warwick, RI ● Burlington,
+				VT ● Essex, VT ● South Burlington, VT ● Portland, ME ● Lewiston, ME ●
+				Bangor, ME
+			</p>
+			<div
+				class="flex justify-between max-w-5xl mx-auto items-center gap-10 my-10"
+			>
+				<a class="flex-1" href="">
+					<img
+						class="w-full"
+						src="./images/carlisle-roofing-contractors-in-massachusetts-300x63.png"
+						alt=""
+					/>
+				</a>
+				<a class="flex-1 flex justify-center" href="">
+					<img
+						class="w-44"
+						src="./images/gaf-roofing-contractors-in-massachusetts.png"
+						alt=""
+					/>
+				</a>
+				<a class="flex-1" href="">
+					<img
+						class="w-full"
+						src="./images/genflex-roofing-contractors-in-massachusetts.png"
+						alt=""
+					/>
+				</a>
+			</div>
+			<!-- map  -->
+			<div>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.832953011152!2d-71.40428580000001!3d42.303429699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68c2bf9baccabc64!2sWerner%20Roofing!5e0!3m2!1sen!2sus!4v1658589007371!5m2!1sen!2sus"
+					width="100%"
+					height="400"
+					style="border: 0px; pointer-events: none"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</div>
+
+		<!-- footer  -->
+
+		<div class="bg-blue_primary text-white pt-4 sm:pt-10 lg:pt-12">
+			<footer class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+				<div
+					class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16"
+				>
+					<div class="col-span-full lg:col-span-2">
+						<!-- logo - start -->
+						<div class="lg:-mt-2 mb-4">
+							<a
+								href="./index.html"
+								class="inline-flex items-center text-black-800 text-xl md:text-2xl font-bold gap-2"
+								aria-label="logo"
+							>
+								<img src="./images/werner-roofing-logo-2a.png" alt="" />
+							</a>
+						</div>
+						<!-- logo - end -->
+
+						<p class="sm:pr-8 mb-6">
+							Werner Roofing is a full-service roofing contractor in Framingham,
+							MA specializing in TPO Roofing, Flat Roofs, Roof Repairs, Metal
+							Roofs & Roof Coatings.
+						</p>
+					</div>
+
+					<!-- nav - start -->
+					<div>
+						<div class="font-bold tracking-widest uppercase mb-4">
+							Roofing Services
+						</div>
+
+						<nav class="flex flex-col gap-4">
+							<div>
+								<a
+									href="./commercial-roofing.html"
+									class="hover:underline transition duration-100"
+									>Commercial Roofing</a
+								>
+							</div>
+							<div>
+								<a
+									href="./roof-coatings.html"
+									class="hover:underline transition duration-100"
+								>
+									Roof Coatings</a
+								>
+							</div>
+
+							<div>
+								<a
+									href="./roof-repair.html"
+									class="hover:underline transition duration-100"
+								>
+									Roof Repair</a
+								>
+							</div>
+
+							<div>
+								<a
+									href="./tpo-roofing.html"
+									class="hover:underline transition duration-100"
+								>
+									TPO Roofing</a
+								>
+							</div>
+
+							<div>
+								<a
+									href="./metal-roofing.html"
+									class="hover:underline transition duration-100"
+								>
+									Metal Roofs</a
+								>
+							</div>
+
+							<div>
+								<a href="#" class="hover:underline transition duration-100">
+									Industrial Roofers</a
+								>
+							</div>
+
+							<div>
+								<a href="#" class="hover:underline transition duration-100">
+									Flat Roofing
+								</a>
+							</div>
+
+							<div>
+								<a href="#" class="hover:underline transition duration-100">
+									Specialists
+								</a>
+							</div>
+						</nav>
+					</div>
+					<!-- nav - end -->
+
+					<!-- nav - start -->
+					<div>
+						<div class="font-bold tracking-widest uppercase mb-4">
+							Service Area
+						</div>
+
+						<nav class="flex flex-col gap-4">
+							<div>
+								<p class="transition duration-100">
+									We serve the entire state of Massachusetts, New Hampshire,
+									Rhode Island, Vermont & Maine.
+								</p>
+							</div>
+						</nav>
+					</div>
+					<!-- nav - end -->
+
+					<!-- nav - start -->
+					<div>
+						<div class="font-bold tracking-widest uppercase mb-4">
+							Top Cities
+						</div>
+
+						<nav class="flex flex-col gap-4">
+							<ul>
+								<li>● Boston, MA</li>
+								<li>● Worcester, MA</li>
+								<li>● Springfield, MA</li>
+								<li>● Manchester, NH</li>
+								<li>● Nashua, NH</li>
+								<li>● Concord, NH</li>
+								<li>● Providence, RI</li>
+								<li>● Cranston, RI</li>
+								<li>● Warwick, RI</li>
+								<li>● Burlington, VT</li>
+								<li>● Essex, VT</li>
+								<li>● South Burlington, VT</li>
+								<li>● Portland, ME</li>
+								<li>● Lewiston, ME</li>
+								<li>● Bangor, ME</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- nav - end -->
+
+					<!-- nav - start -->
+					<div>
+						<div class="font-bold tracking-widest uppercase mb-4">
+							Contact Info
+						</div>
+
+						<nav class="flex flex-col gap-4">
+							<div>
+								<p href="#" class="font-medium mb-4">Werner Roofing</p>
+								<p href="#" class=" ">945 Concord St Framingham, MA 01701</p>
+							</div>
+
+							<div>
+								<a href="tel:5084057775"
+									><strong>Phone:</strong> (508) 405-7775
+								</a>
+								<br />
+								<a href="mailto:info@wernerroofing.net">
+									<strong>Email:</strong> info@wernerroofing.net</a
+								>
+							</div>
+						</nav>
+					</div>
+					<!-- nav - end -->
+				</div>
+
+				<div class="text-sm text-center border-t py-8">
+					© Copyright 2023 Werner Roofing. All Rights Reserved.
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>

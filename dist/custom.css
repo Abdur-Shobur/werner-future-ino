@@ -8,3 +8,7 @@
 		no-repeat center;
 	background-size: cover;
 }
+.background_images_roof_hero {
+	background: url('../src/images/commercial-roof-hero.jpg') no-repeat center;
+	background-size: cover;
+}
