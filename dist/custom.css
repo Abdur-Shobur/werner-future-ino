@@ -28,3 +28,7 @@
 	background: url('../src/images/flat-roof-hero.jpg') no-repeat center;
 	background-size: cover;
 }
+
+.toggle_menu_items {
+	transition: transform 10s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}

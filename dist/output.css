@@ -759,6 +759,10 @@ video {
   flex: 1 1 0%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .resize-none {
   resize: none;
 }
@@ -1212,6 +1216,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-\[cubic-bezier\(0\.95\2c 0\.05\2c 0\.795\2c 0\.035\)\] {
+  transition-timing-function: cubic-bezier(0.95,0.05,0.795,0.035);
 }
 
 .hover\:bg-blue_primary:hover {
