@@ -29,6 +29,12 @@
 	background-size: cover;
 }
 
-.toggle_menu_items {
+/* #toggle_menu_items {
 	transition: transform 10s cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
+
+.hidden {
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+} */
