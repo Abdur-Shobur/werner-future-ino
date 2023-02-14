@@ -50,7 +50,9 @@
 
 		<!-- nav bar  -->
 		<div class="bg-blue_primary">
-			<div class="max-w-full mx-auto">
+			<div
+				class="max-w-full mx-auto relative transition-all duration-3000 ease-in-out"
+			>
 				<div class="flex justify-between items-center lg:hidden">
 					<h1
 						class="text-base uppercase px-6 py-4 inline-block text-white transition-all font-medium"
@@ -58,21 +60,25 @@
 						Menu
 					</h1>
 					<span
-						class="text-base uppercase px-6 py-4 inline-block text-white transition-all font-medium"
+						id="toggle_handler"
+						class="text-base cursor-pointer uppercase px-6 py-4 inline-block text-white transition-all font-medium"
 						><i class="fa-solid fa-bars"></i
 					></span>
 				</div>
-				<ul class="lg:flex justify-center items-center hidden">
+				<ul
+					id="toggle_menu_items"
+					class="lg:flex justify-center hidden items-center"
+				>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./index.html"
 							>HOME
 						</a>
 					</li>
 					<li>
 						<a
-							class="bg-blue_secondary text-base uppercase px-4 lg:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="bg-blue_secondary w-full text-base uppercase px-4 lg:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./commercial-roofing.html"
 						>
 							COMMERCIAL ROOFING
@@ -80,7 +86,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./metal-roofing.html"
 						>
 							METAL ROOFING
@@ -88,7 +94,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./roof-coatings.html"
 						>
 							ROOF COATINGS
@@ -96,7 +102,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./tpo-roofing.html"
 						>
 							TPO ROOFING
@@ -104,7 +110,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./roof-repair.html"
 						>
 							ROOF REPAIR
@@ -112,7 +118,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./contact.html"
 						>
 							CONTACT
@@ -703,5 +709,6 @@
 				</div>
 			</footer>
 		</div>
+		<script src="./script.js"></script>
 	</body>
 </html>

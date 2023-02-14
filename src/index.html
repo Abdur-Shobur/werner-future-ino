@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
 		/>
 		<link href="../dist/output.css" rel="stylesheet" />
-		<link href="../dist/custom.css" rel="stylesheet" />
+		<link href="'../dist/output.css" rel="stylesheet" />
 	</head>
 	<body>
 		<!-- top bar  -->
@@ -50,7 +50,9 @@
 
 		<!-- nav bar  -->
 		<div class="bg-blue_primary">
-			<div class="max-w-full mx-auto">
+			<div
+				class="max-w-full mx-auto relative transition-all duration-3000 ease-in-out"
+			>
 				<div class="flex justify-between items-center lg:hidden">
 					<h1
 						class="text-base uppercase px-6 py-4 inline-block text-white transition-all font-medium"
@@ -65,7 +67,7 @@
 				</div>
 				<ul
 					id="toggle_menu_items"
-					class="lg:flex justify-center hidden items-center transition-all duration-3000 ease-in-out"
+					class="lg:flex justify-center hidden items-center"
 				>
 					<li>
 						<a
@@ -76,7 +78,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 lg:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 lg:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./commercial-roofing.html"
 						>
 							COMMERCIAL ROOFING
@@ -84,7 +86,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./metal-roofing.html"
 						>
 							METAL ROOFING
@@ -92,7 +94,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./roof-coatings.html"
 						>
 							ROOF COATINGS
@@ -100,7 +102,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./tpo-roofing.html"
 						>
 							TPO ROOFING
@@ -108,7 +110,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./roof-repair.html"
 						>
 							ROOF REPAIR
@@ -116,7 +118,7 @@
 					</li>
 					<li>
 						<a
-							class="text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
+							class="w-full text-base uppercase px-4 xl:px-5 py-4 inline-block text-white hover:bg-blue_secondary transition-all font-medium"
 							href="./contact.html"
 						>
 							CONTACT
